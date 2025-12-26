@@ -1,28 +1,28 @@
-### Запуск в консоли
-Установить зависимости:
+### CLI Run
+Install dependency:
 
 `npm i`
 
-Запустить приложение:
+Run server:
 
 `npm start`
 
 
-### Запуск в Docker
-Для сборки запустить:
+### Run in Docker
+Build:
 
 `docker build -t websocket-node-server-docker .`
 
-Для запуска (примерная конфигурация):
+Run (template config):
 
 `docker run -m 1g --cpus=1 --storage-opt size=1G -d -p 8484:8484 --name game-server websocket-node-server-docker --restart=always`
 
-Для сохранения образа:
+To save image:
 
 `docker save websocket-node-server-docker > game-server.tar`
 
-### Использование с Nginx
-В конфиге Nginx нужно внести настройки. Пример:
+### Running behind Nginx
+Sample config of Nginx:
 
 ```
     # websockets
