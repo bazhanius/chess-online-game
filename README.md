@@ -1,6 +1,6 @@
 # LAN Chess
 
-[Play!](https://bazhanius.github.io/chess-online-game/)
+[Play now!](https://bazhanius.github.io/chess-online-game/) (the frontend is hosted on GitHub Pages, the backend is hosted on [render.com](https://render.com))
 
 ![img](https://repository-images.githubusercontent.com/1123324247/ae3c3b36-2bb4-41b0-bd0b-5bb878f6730d)
 
