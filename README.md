@@ -1,4 +1,4 @@
-# LAN Chess
+# Chess Online Game
 
 [Play now!](https://bazhanius.github.io/chess-online-game/) (the frontend is hosted on GitHub Pages, the backend is hosted on [render.com](https://render.com))
 
@@ -6,25 +6,21 @@
 
 ### About
 
-The game was designed for use in a LAN (Wi-Fi on trains web-portal) with the features of the on-board infotainment system in mind.
+ - Play vs other player, vs computer
+ - Spectator mode to watch others play
+ - Settings: language (russian, english, simplified chinese)
+ - Settings: five difficulty levels of computer (Stockfish engine)
+ - Stats Section — store wins, draws and loses in Local Storage
 
-- Auth was before entering game and each user has unique IP (Captive portal)
-- Backend was mentioned to be behind web-server (nginx takes all network and security job)
-- Client-side chess engine for playing against computer (Stockfish)
-- Client-side history and statistics (no user-data storing in DB in long term)
-- Localization in three languages: Russian, English and Simplified Chinese
+### Run and build
 
-But it can be adapted for other needs and features.
+CLI:
 
-Code itself is a monorepo for frontend (next.js, material ui, stockfish wasm/js, socket.io, lichess chessground) 
-and backend (node.js, express.js).
+`npm run dev` — for debugging (by default `localhost:3000`)
 
-### Getting started
+`npm run build` — to build static client (w/o SSR) in `/out` folder
 
-You could start frontend and backend separately in CLI or Docker. 
-See README files in each folder respectively.
-
-Or start both at once in Docker from root after changing `.env` for your needs:
+Docker:
 
 `docker compose up`
 
