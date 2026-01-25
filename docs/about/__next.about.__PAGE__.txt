@@ -1,0 +1,9 @@
+1:"$Sreact.fragment"
+2:I[47257,["/chess-online-game/_next/static/chunks/e7283fea06b4a340.js"],"ClientPageRoot"]
+3:I[23315,["/chess-online-game/_next/static/chunks/903f11cf719d5408.js","/chess-online-game/_next/static/chunks/9aaefcd20772f745.js","/chess-online-game/_next/static/chunks/60138c3ddb4f0f96.js","/chess-online-game/_next/static/chunks/065e2bc13bb21d15.js"],"default"]
+6:I[97367,["/chess-online-game/_next/static/chunks/e7283fea06b4a340.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+0:{"buildId":"VJHjvoKRygUNSoicXgyPi","rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","script","script-0",{"src":"/chess-online-game/_next/static/chunks/9aaefcd20772f745.js","async":true}],["$","script","script-1",{"src":"/chess-online-game/_next/static/chunks/60138c3ddb4f0f96.js","async":true}],["$","script","script-2",{"src":"/chess-online-game/_next/static/chunks/065e2bc13bb21d15.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"loading":null,"isPartial":false}
+4:{}
+5:"$0:rsc:props:children:0:props:serverProvidedParams:params"
+8:null

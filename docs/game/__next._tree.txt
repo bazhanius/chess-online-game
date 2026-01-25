@@ -1,0 +1,4 @@
+:HL["/chess-online-game/_next/static/chunks/b34e8490d288cfac.css","style"]
+:HC["/",""]
+:HL["/chess-online-game/_next/static/chunks/9e1946c0bc298011.css","style"]
+0:{"buildId":"VJHjvoKRygUNSoicXgyPi","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"game","paramType":null,"paramKey":"game","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
